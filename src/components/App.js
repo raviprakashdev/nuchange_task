@@ -84,15 +84,9 @@ function App() {
         }
     };
 
-    // useEffect(() => {
-    //     const retriveproducts = JSON.parse(
-    //         localStorage.getItem(LOCAL_STORAGE_KEY)
-    //     );
-    //     if (retriveproducts) setproducts(retriveproducts);
-    // }, []);
+ 
 
     useEffect(() => {
-        // localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(products));
     }, [products]);
 
     return (
